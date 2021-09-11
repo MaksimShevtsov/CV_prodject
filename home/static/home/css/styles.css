@@ -236,7 +236,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #6c757d;
   text-decoration: underline;
 }
 a:hover {
@@ -7706,7 +7706,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-secondary {
@@ -7797,7 +7797,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11391,7 +11391,7 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 section.resume-section {
